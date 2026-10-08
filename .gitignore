@@ -4,3 +4,5 @@ assets/.DS_Store
 assets/img/.DS_Store
 assets/img/committee/.DS_Store
 _site/
+.wrangler/
+node_modules/
