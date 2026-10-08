@@ -1,0 +1,33 @@
+nav:
+
+- title: Intro
+  url: /22/#intro
+  order: 1
+
+- title: Program
+  url: /22/#program
+  order: 2
+
+- title: HUAWEI Competition
+  url: /22/#huawei
+  order: 3
+
+- title: Workshop
+  url: /22/#workshop
+  order: 4
+
+- title: Registration
+  url: /22/#reg
+  order: 5
+
+- title: Call for Papers
+  url: /22/#callforpaper
+  order: 6
+
+- title: Committee
+  url: /22/#committee
+  order: 7
+
+- title: Sponsorship
+  url: /22/sponsor/
+  order: 8
