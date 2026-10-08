@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include 23/head.html -%}
+
+  <body>
+
+    {%- include 23/header.html -%}
+
+    <main id="content" role="main">
+      {%- include 23/hero.html -%}
+              
+        {{ content }}
+        
+    </main>
+
+    {%- include 23/footer.html -%}
+
+  </body>
+
+</html>

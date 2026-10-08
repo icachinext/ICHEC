@@ -1,0 +1,76 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Chinese CHI
+email: chchi@icachi.org
+description: ICACHI 世界华人华侨人机交互协会
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# CHCHI23
+title23: Chinese CHI 2023
+email23: chchi2023@icachi.org
+
+# CHCHI24
+title24: Chinese CHI 2024
+email24: icachi.chchi+2024@gmail.com
+keywordsZH24: 创新 · 创造 · 整合
+keywordsEN24: Innovation · Creativity · Integration
+dateZH24: 2024年11月22~25日
+dateEN24: November 22~25, 2024
+venueZH24: 南方科技大学，中国深圳
+venueEN24: Southern University of Science and Technology, Shenzhen, China
+
+# CHCHI25
+title25: ICHEC 2025
+email25: ichechost2025@gmail.com
+keywordsZH25: 包容 · 智能 · 连接
+keywordsEN25: Inclusion · Intelligence · Connection
+dateZH25: 2025年11月21~23日
+dateEN25: November 21-23, 2025
+venueZH25: 新加坡管理大学，新加坡
+venueEN25: Singapore Management University, Singapore
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

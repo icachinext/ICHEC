@@ -1,0 +1,37 @@
+nav:
+
+- title: Home
+  url: /24/
+  order: 1
+
+- title: For Authors
+  url: /24/callforpapers/
+  order: 2
+
+- title: Registration
+  url: /24/registration/
+  order: 3
+
+- title: Program
+  url: /24/program/
+  order: 4
+
+- title: IWHEC
+  url: /24/iwhec/
+  order: 5
+
+- title: Symposium
+  url: /24/symposium/
+  order: 6
+
+- title: Workshops
+  url: /24/workshops/
+  order: 7
+
+- title: Committee
+  url: /24/committee/
+  order: 8
+
+- title: Sponsorship
+  url: /24/sponsorship/
+  order: 9

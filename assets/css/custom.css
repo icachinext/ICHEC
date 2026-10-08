@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1800px) {
+  .hero-size {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .hero-size {
+    width: 100%;
+  }
+}
+
+#sider-menu {
+  margin-top: 40px;
+  margin-left: 30px;
+  border-radius: 6px;
+  /* background-color:#F5F5F5; */
+  padding: 30px;
+}
+
+@media screen and (max-width: 1217px) {
+  #sider-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1218px) and (max-width: 1360px) {
+  #sider-menu {
+    margin-left: 10px;
+  }
+}
+
+#sider-menu .navbar-nav>li>a {
+  color: #377dff;
+}
+
+#sider-menu .navbar-nav>li>a:hover {
+  background-color: #eeeeee;
+  border-radius: 6px;
+  border-bottom: none;
+}
+
+#sider-menu .navbar-nav>.active>a {
+  /* border-left: 1px solid #377dff; */
+  border-bottom: none;
+  color: #377dff;
+}
+
+#sider-menu .navbar-nav>.active>a:hover {
+  background-color: #377dff;
+  color: White;
+}
+
+.call-finish {
+  color: #aaaaaa;
+}
+
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.program-table th,
+.program-table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.program-table td small {
+  display: block;
+  color: #666;
+  font-size: 0.85em;
+}
+
+.logo-icachi {
+  height: 80px;
+  width: auto;
+}
+
+.logo-smu {
+  height: 100px;
+  width: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-container {
+  padding: 1rem;
+  max-width: 280px;
+}
+
+/* Prevent horizontal overflow on small screens */
+html, body {
+  overflow-x: hidden;
+}
+
+#content {
+  overflow-x: hidden;
+}
+
+/* Allow nav tabs to wrap on narrow viewports */
+.nav.nav-classic {
+  flex-wrap: wrap;
+}
+
+.nav.nav-classic .nav-link {
+  white-space: normal;
+}

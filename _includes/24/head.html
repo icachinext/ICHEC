@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  {%- seo -%}
+  <!-- <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> -->
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico"> 
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/aos/dist/aos.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/cubeportfolio/css/cubeportfolio.min.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.min.css">
+  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.min-front-v4.3.1.css"> -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+  
+  <style type="text/css">
+    /* @font-face {
+      font-family: 'Ping';
+      src: url('./static/font/PingFang.ttc');
+      font-style: 'SC';
+      font-weight: 'Medium';
+    }
+
+    .custom-font {
+      font-family: 'Ping';
+      font-size: 80px;
+    } */
+  </style>
+
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

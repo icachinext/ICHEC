@@ -1,0 +1,181 @@
+/* ===== ICHEC theme colors ===== */
+:root {
+  --ichec-primary: #872657;
+  /* 主色（可改 #702963 更偏紫） */
+  --ichec-primary-weak: #f8eef4;
+  /* 浅色悬停背景 */
+  --ichec-border: #d8c3cf;
+  --ichec-light: #f8eef4;
+  /* hover 时浅背景色 */
+}
+
+/* 普通状态 */
+.nav-tabs .nav-link {
+  color: #6c757d;
+  /* 默认灰 */
+}
+
+/* hover 状态 */
+.nav-tabs .nav-link:hover {
+  color: var(--ichec-primary) !important;
+}
+
+/* 激活状态（当前选中） */
+.nav-tabs .nav-link.active {
+  color: var(--ichec-primary) !important;
+  border-color: var(--ichec-primary) !important;
+  /* 改底线颜色 */
+}
+
+/* 如果你的框架使用伪元素渲染下划线（例如 Material Tabs），加上这段 */
+.nav-tabs .nav-link.active::after,
+.nav-tabs .nav-link:hover::after {
+  background-color: var(--ichec-primary) !important;
+}
+
+.program-table {
+  font-size: 0.9rem;
+}
+
+.program-table thead th {
+  background-color: #702963;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.program-table tbody tr:nth-child(odd) {
+  background-color: #faf7fb;
+}
+
+.program-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.program-table td,
+.program-table th {
+  vertical-align: middle;
+}
+
+.program-table small {
+  font-size: 0.8em;
+  color: #ffffff;
+}
+
+.program-table b {
+  color: #A72C63;
+}
+
+/* 固定左侧时间列宽度，让其他列自然适配 */
+.program-table th:first-child,
+.program-table td:first-child {
+  width: 130px;
+  /* 或者 12%、固定像素都行 */
+  min-width: 120px;
+  /* 避免被压缩 */
+  white-space: nowrap;
+  /* 防止时间换行 */
+
+}
+
+/* 让其他列自动分配剩余空间 */
+.program-table th:not(:first-child),
+.program-table td:not(:first-child) {
+  width: auto;
+}
+
+.text-primary {
+  color: var(--ichec-primary) !important;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+a {
+  color: #8C1032;
+}
+
+a:hover {
+  color: #5e0b23;
+}
+
+/* Normal button */
+.btn-primary {
+  color: #fff;
+  background-color: #8C1032;   /* 主色 */
+  border-color: #8C1032;
+}
+
+/* Hover */
+.btn-primary:hover {
+  color: #fff;
+  background-color: #6b0d27;   /* 主色加深一点 */
+  border-color: #5e0b23;
+}
+
+/* Focus (click highlight) */
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #6b0d27;
+  border-color: #5e0b23;
+  box-shadow: 0 0 0 0.2rem rgba(140, 16, 50, 0.35); /* 用主色的半透明阴影 */
+}
+
+/* Disabled */
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #b85a78;   /* 主色更淡一点 */
+  border-color: #b85a78;
+}
+
+/* Active (正在点按时) */
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #5e0b23;   /* 更深 */
+  border-color: #4d091d;
+}
+
+/* Active + Focus */
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(140, 16, 50, 0.35);
+}
+
+.btn-outline-primary {
+  color: #8C1032;
+  border-color: #8C1032;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #8C1032;
+  border-color: #8C1032;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(140, 16, 50, 0.3);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #8C1032;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #8C1032;
+  border-color: #8C1032;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(140, 16, 50, 0.3);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include 25/head.html -%}
+
+  <body>
+
+    {%- include 25/header.html -%}
+
+    <main id="content" role="main">
+      {% if page.url == '/25/' or page.url == '/25/index.html' or page.url == '/' %} 
+        {% include 25/hero_home.html %} 
+      {% else %} 
+        {% include 25/hero_other.html %}
+      {% endif %}
+
+        {{ content }}
+
+    </main>
+
+    {%- include 25/footer.html -%}
+
+  </body>
+
+</html>

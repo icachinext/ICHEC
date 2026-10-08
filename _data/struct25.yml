@@ -1,0 +1,45 @@
+nav:
+
+- title: Home
+  url: /25/
+  order: 1
+
+- title: For Authors
+  url: /25/callforpapers/
+  order: 2
+
+- title: Attend
+  url: /25/attend/
+  order: 3
+
+# - title: Registration
+#   url: /25/registration/
+#   order: 3
+
+- title: Program
+  url: /25/program/
+  order: 4
+
+# - title: IWHEC
+#   url: /25/iwhec/
+#   order: 5
+
+# - title: Symposium
+#   url: /25/symposium/
+#   order: 6
+
+- title: Workshops
+  url: /25/workshops/
+  order: 5
+
+- title: AMA Lunch
+  url: /25/amalunch/
+  order: 6
+
+- title: Committee
+  url: /25/committee/
+  order: 7
+
+- title: Sponsorship
+  url: /25/sponsorship/
+  order: 8

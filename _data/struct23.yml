@@ -1,0 +1,29 @@
+nav:
+
+- title: Home
+  url: /23/
+  order: 1
+
+- title: For Authors
+  url: /23/callforpapers/
+  order: 2
+
+- title: Registration
+  url: /23/registration/
+  order: 3
+
+- title: Program
+  url: /23/program/
+  order: 4
+
+- title: IWHEC & Workshops
+  url: /23/iwhec/
+  order: 5
+
+- title: Committee
+  url: /23/committee/
+  order: 6
+
+- title: Sponsorship
+  url: /23/sponsorship/
+  order: 7
