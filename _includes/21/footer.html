@@ -1,0 +1,158 @@
+<!-- ========== FOOTER ========== -->
+<hr>
+<footer class="container space-2 space-top-lg-2">
+
+  <!-- Copyright -->
+  <div class="row align-items-sm-center">
+    <div class="col-sm-6 mb-4 mb-sm-0">
+      <p class="small mb-0">&copy; 2021-2022 <a href="http://icachi.org">世界华人华侨人机交互协会</a>.</p>
+      
+    </div>
+
+    <div class="col-sm-6 text-sm-right">
+      <!-- Social Networks -->
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item mb-2 mb-sm-0">
+          <a class="btn btn-xs btn-icon btn-soft-indigo rounded-circle" href="mailto:youth@icachi.org">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="mailto:youth@icachi.org" class="ml-2 small mb-0">chchi2021@icachi.org</a>
+        </li>
+        <!-- <li class="list-inline-item mb-2 mb-sm-0">
+          <a class="btn btn-xs btn-icon btn-soft-indigo rounded-circle" href="">
+            <i class="fas fa-phone-alt"></i>
+          </a>
+          <span class="ml-2 small mb-0">+81-887-57-2087</span>
+        </li> -->
+      </ul>
+      <!-- End Social Networks -->
+    </div>
+  </div>
+  <!-- End Copyright -->
+</footer>
+<!-- ========== END FOOTER ========== -->
+
+<!-- Go to Top -->
+<a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
+     "offsetTop": 700,
+     "position": {
+       "init": {
+         "right": 15
+       },
+       "show": {
+         "bottom": 15
+       },
+       "hide": {
+         "bottom": -15
+       }
+     }
+   }'>
+  <i class="fas fa-angle-up"></i>
+</a>
+<!-- End Go to Top -->
+
+<!-- JS Global Compulsory  -->
+<script src="{{ site.baseurl }}/assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="{{ site.baseurl }}/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/typed.js/lib/typed.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/aos/dist/aos.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/slick-carousel/slick/slick.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+
+<!-- JS Front -->
+<script src="{{ site.baseurl }}/assets/21/js/theme.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/hs.slick-carousel.js"></script>
+<script src="{{ site.baseurl }}/assets/js/hs.cubeportfolio.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  $(document).on('ready', function () {
+    // INITIALIZATION OF CUBEPORTFOLIO
+    // =======================================================
+    $('.cbp').each(function () {
+      var cbp = $.HSCore.components.HSCubeportfolio.init($(this), {
+        layoutMode: 'grid',
+        filters: '#filterControls'
+      });
+    });
+  });
+</script>
+
+<script>
+  $(document).on('ready', function () {
+    // INITIALIZATION OF FANCYBOX
+    // =======================================================
+    $('.js-fancybox').each(function () {
+      var fancybox = $.HSCore.components.HSFancyBox.init($(this));
+    });
+  });
+</script>
+
+<script>
+  $(document).on('ready', function () {
+    // INITIALIZATION OF HEADER
+    // =======================================================
+    var header = new HSHeader($('#header')).init();
+
+
+    // INITIALIZATION OF MEGA MENU
+    // =======================================================
+    var megaMenu = new HSMegaMenu($('.js-mega-menu'), {
+      desktop: {
+        position: 'left'
+      }
+    }).init();
+
+
+    // INITIALIZATION OF TEXT ANIMATION (TYPING)
+    // =======================================================
+    var typed = $.HSCore.components.HSTyped.init(".js-text-animation");
+    var typed1 = $.HSCore.components.HSTyped.init(".js-text-animation-1");
+    var typed2 = $.HSCore.components.HSTyped.init(".js-text-animation-2");
+
+
+    // INITIALIZATION OF FANCYBOX
+    // =======================================================
+    $('.js-fancybox').each(function () {
+      var fancybox = $.HSCore.components.HSFancyBox.init($(this));
+    });
+
+
+    // INITIALIZATION OF AOS
+    // =======================================================
+    AOS.init({
+      duration: 650,
+      once: true
+    });
+
+
+    // INITIALIZATION OF GO TO
+    // =======================================================
+    $('.js-go-to').each(function () {
+      var goTo = new HSGoTo($(this)).init();
+    });
+  });
+</script>
+
+<script>
+  $(document).on('ready', function () {
+    // INITIALIZATION OF SLICK CAROUSEL
+    // =======================================================
+    $('.js-slick-carousel').each(function () {
+      var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
+    });
+  });
+</script>
+<!-- Why -->
+<!-- IE Support -->
+<script>
+  if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="{{ site.baseurl }}/assets/vendor/babel-polyfill/dist/polyfill.js"><\/script>');
+</script>

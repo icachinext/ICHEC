@@ -1,0 +1,33 @@
+nav:
+
+- title: Intro
+  url: /21/#intro
+  order: 1
+
+- title: Program
+  url: /21/#program
+  order: 2
+
+- title: Registration
+  url: /21/#registration
+  order: 3
+
+- title: Call for Papers
+  url: /21/#callforpaper
+  order: 4
+
+- title: Call for Late Breaking Work
+  url: /21/#callforlatebreakingwork
+  order: 5
+
+- title: Committee
+  url: /21/#committee
+  order: 6
+
+- title: PC
+  url: /21/#pc
+  order: 7
+
+- title: Sponsorship
+  url: /21/sponsor/
+  order: 8
