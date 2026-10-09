@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include conference/head.html -%}
+
+  <body>
+
+    {%- include conference/header.html -%}
+
+    <main id="content" role="main">
+      {{ content }}
+    </main>
+
+    {%- include conference/footer.html -%}
+
+  </body>
+
+</html>

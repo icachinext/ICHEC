@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: conference
+---
+{%- include 24/hero.html -%}
 
-  {%- include 24/head.html -%}
-
-  <body>
-
-    {%- include 24/header.html -%}
-
-    <main id="content" role="main">
-      {%- include 24/hero.html -%}
-              
-        {{ content }}
-        
-    </main>
-
-    {%- include 24/footer.html -%}
-
-  </body>
-
-</html>
+{{ content }}

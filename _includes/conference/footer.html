@@ -1,0 +1,49 @@
+{%- assign title_key = "title" | append: page.year -%}
+{%- assign email_key = "email" | append: page.year -%}
+{%- assign conf_email = site[email_key] | default: site.email -%}
+<hr>
+<footer class="container space-2 space-top-lg-2">
+  <div class="row align-items-sm-center">
+    <div class="col-sm-6 mb-4 mb-sm-0">
+      <p class="small mb-0"><a href="https://icachi.org">&copy; {{ site[title_key] | default: site.title | escape }}</a>.</p>
+    </div>
+
+    <div class="col-sm-6 text-sm-right">
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item mb-2 mb-sm-0">
+          <a class="btn btn-xs btn-icon btn-soft-indigo rounded-circle" href="mailto:{{ conf_email }}" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="mailto:{{ conf_email }}" class="ml-2 small mb-0">{{ conf_email }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" aria-label="Back to top" data-hs-go-to-options='{
+     "offsetTop": 700,
+     "position": {
+       "init": {
+         "right": 15
+       },
+       "show": {
+         "bottom": 15
+       },
+       "hide": {
+         "bottom": -15
+       }
+     }
+   }'>
+  <i class="fas fa-angle-up"></i>
+</a>
+
+<script src="{{ site.baseurl }}/assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/aos/dist/aos.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+<script src="{{ site.baseurl }}/assets/vendor/fslightbox/index.js"></script>
+<script src="{{ site.baseurl }}/assets/js/conference.js"></script>
