@@ -12,21 +12,9 @@ nav:
   url: /25/attend/
   order: 3
 
-# - title: Registration
-#   url: /25/registration/
-#   order: 3
-
 - title: Program
   url: /25/program/
   order: 4
-
-# - title: IWHEC
-#   url: /25/iwhec/
-#   order: 5
-
-# - title: Symposium
-#   url: /25/symposium/
-#   order: 6
 
 - title: Workshops
   url: /25/workshops/
