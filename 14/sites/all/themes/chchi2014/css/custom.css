@@ -1,0 +1,344 @@
+/*
+ * Common
+ */
+
+/* 
+h1{
+	font-family: 'Exo', sans-serif;
+}
+*/
+
+
+a{
+	color: #0D5677;
+}
+
+a:hover{
+
+}
+
+.fitwidth{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.right{
+	float: right;
+}
+
+p {
+	margin: 20px 0 1.2em;
+}
+
+body{
+	margin: 0px;
+}
+/*
+ * Table
+ */
+
+tbody{
+	border: none;
+}
+
+tr td, tr th {
+	padding: 4px 9px;
+	border: none;
+	text-align: left;
+}
+
+tr, tr.even{
+	background: none;
+}
+
+#main table{
+	margin: 10px 0px;
+	width: 100%;
+}
+
+#main table td, #main table th{
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+#main table th{
+	background-color: #f2f2f2;
+	padding: 5px 15px;
+	font-weight: bold;
+	color: black;
+}
+
+/*
+ * Header
+ */
+#header {
+	padding: 10px 0px 40px 0px;
+	background: maroon;
+	background: url(/14/sites/all/themes/chchi2014/images/splash.jpg) no-repeat center #222;
+	height: 220px;
+        margin: 0px auto;
+       width: 960px;
+}
+
+#header table{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	margin-left: 20px;
+	margin: 0px auto;
+	width: 430px;
+	float: right;
+	margin-top: 20px;
+}
+
+#header table td{
+	padding: 0px;
+	margin: 0px;
+}
+
+#logo {
+	padding-left: 0px;
+}
+
+
+#logo img{
+	height: 70px;
+}
+
+#siteinfo{
+	color: white;
+}
+
+#sitename{
+	font-size: 40px;
+	margin-bottom: -10px;
+	text-shadow: 0px 2px black;
+	color: #fffce8;
+}
+
+#sitelogan{
+	color: #fcfbef;
+	font-size: 18px;
+	text-shadow: 0px 2px black;
+}
+
+/*
+ * Search
+ */
+ 
+#search input[type="text"]{
+	padding: 5px 10px;
+	font-size: 11px;
+	border: 1px solid #ccc;
+	width: 140px;
+	
+	/* CSS3 Transition */
+	transition: width 600ms ease 0, background 600ms ease 0; 
+	-webkit-transition: width 600ms ease 0, background 600ms ease 0; 
+	-moz-transition: width 600ms ease 0, background 600ms ease 0; 
+	-o-transition: width 600ms ease 0, background 600ms ease 0; 
+}
+
+#search input[type="text"]:focus
+{ 
+	background-color: #f8f8f8; 
+	width: 240px; 
+}
+
+/*
+ * Main Wrapper
+ */
+
+#main-wrapper{
+	min-height: 0px;
+}
+
+#main{
+	margin: 10px auto;
+}
+
+/*
+	Main menu	
+*/
+
+#main-menu{
+	border-top: 5px solid #8b8997;
+	margin: 0px auto;
+	width: 960px;
+	margin-top: -68px;
+}
+
+#main-menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-top: -1px;
+	
+}
+
+#main-menu ul li{
+	display:inline;
+}
+
+#main-menu ul li a{
+	display:inline-block;
+  	padding:10px 30px 10px 0px;
+  	color: #fff;
+  	text-decoration: none;
+  	font-size: 19px;
+  	text-transform: uppercase;
+	text-align: center;
+}
+
+#main-menu ul li a:hover{
+	color: #f9f29f;
+}
+
+#main-menu ul li a.active{
+	color: #f9f29f;
+}
+
+#main-menu span{
+	display: block;
+	font-size: 11px;
+	color: #aaa;
+	margin-top: 1px;
+}
+
+/*
+ * Box
+ */
+
+.box{
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 10px #ddd;
+}
+
+.box h3{
+	padding: 10px 20px;
+	background: #0d3435;
+	color: white;
+	margin: 5px;
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+
+.box.ulist{
+	margin-right: 10px;
+}
+
+.box.ulist ul{
+	padding: 20px 30px;
+	font-size: 15px;
+}
+
+.box.ulist ul li{
+	margin-bottom: 10px;
+	list-style-type: square;
+}
+
+/*
+ * Sidebar
+ */
+ 
+#content .section, .sidebar .section {
+	padding: 0px;
+}
+
+#sidebar-first .section{
+	padding-right: 15px;
+}
+
+#sidebar-second .section{
+	padding-left: 15px;
+}
+
+
+/*
+ * Main
+ */
+#main table.front-table{
+	border: none;
+	padding: 0px;
+	background: none;
+	margin: 0px;
+}
+
+#main table.front-table td{
+	border: none;
+	background: none;
+	padding: 10px 0px;
+}
+
+/*
+ * Footer
+ */
+
+#page-wrapper, #footer-wrapper {
+	background: #fff;
+}
+
+#footer{
+	margin-top: 0px;
+}
+
+.region-footer {
+	font-size: 11px;
+	border-top: 1px solid #ccc;
+	padding: 10px 0px;
+	width: 740px;
+	margin: 0 auto;
+	color: #444;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 15px;
+	text-align: center;
+}
+
+#footer-wrapper a{
+	color: #0D5677;
+}
+
+#footer-wrapper a:hover{
+	color: #018FE2;
+}
+
+.region-footer p{
+	margin: 0px;
+}
+
+/*
+ * Custom
+ */
+.sidebar .block .content {
+	font-size: 12px;
+	/*text-align: center;*/
+}
+
+#jquery-countdown-timer-note{
+	width: auto;
+}
+
+.countdownHolder{
+	width: auto;
+	font-size: 13px;
+}
+
+.node .links .translation-link {
+  display: none;
+}
+
+.alpha60 {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.page-node-17 h1#page-title{
+   color: darkblue;
+}

@@ -1,0 +1,49 @@
+table, td, th
+  {
+  border:3px solid white !important;
+  text-align:center !important;
+  height:80px !important;
+  }
+
+td
+{
+background-color: #e6eff2 !important;
+}
+th
+  {
+  background-color:  #c5e6f0 !important;
+  }
+
+.first-col {
+text-align:left !important;
+padding-left: 10px !important;
+}
+
+.footer h2 {
+font-size: 20pt !important;
+}
+
+.footer {
+background-color: #0b0a0c !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+width: 100% !important;
+
+padding-left: 100pt !important;
+}
+
+.footer h2 {
+color: #ffffff !important;
+}
+
+.footer p {
+color: #ffffff !important
+}
+
+/*.host-info h4 {
+padding-top: 20px !important;
+}*/
+
+/*.host-info img {
+padding-top: 20px !important;
+}*/
