@@ -261,15 +261,22 @@ a:hover {
   }
 }
 
-/* White navigation over the dark 2027 hero. */
-#header.ichec27-header:not(.js-header-fix-moment) .nav-link,
-#header.ichec27-header:not(.js-header-fix-moment) .navbar-toggler {
-  color: #fff;
+/* Desktop links sit on the hero photo, so they stay white until the bar sticks. */
+@media (min-width: 992px) {
+  #header.ichec27-header:not(.js-header-fix-moment) .nav-link {
+    color: #fff;
+  }
 }
 
+/* The collapsed menu is a separate surface from the hero type. */
 @media (max-width: 991.98px) {
-  #header.ichec27-header:not(.js-header-fix-moment) .navbar-body {
-    background-color: #201b27;
-    border-radius: 0.5rem;
+  #header.ichec27-header .navbar-nav {
+    background-color: #fff;
+  }
+
+  #header.ichec27-header .navbar-nav .nav-link,
+  #header.ichec27-header .navbar-nav .nav-link:hover,
+  #header.ichec27-header .navbar-nav .nav-link:focus {
+    color: #1e2022;
   }
 }
