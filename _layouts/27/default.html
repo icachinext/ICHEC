@@ -1,0 +1,10 @@
+---
+layout: conference
+---
+{%- if page.url == "/27/" -%}
+  {%- include 27/hero_home.html -%}
+{%- else -%}
+  {%- include 27/hero_other.html -%}
+{%- endif -%}
+
+{{ content }}

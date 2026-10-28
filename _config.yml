@@ -28,6 +28,16 @@ dateEN25: November 21-23, 2025
 venueZH25: 新加坡管理大学，新加坡
 venueEN25: Singapore Management University, Singapore
 
+# ICHEC27
+title27: ICHEC 2027
+email27: ichechost2027@gmail.com
+keywordsZH27: 待定
+keywordsEN27: To be announced
+dateZH27: 2027 年 11 月 3 日至 5 日（暂定）
+dateEN27: November 3–5, 2027 (tentative)
+venueZH27: 上海工程技术大学，中国上海
+venueEN27: Shanghai University of Engineering Science, Shanghai, China
+
 # `year` selects the per-conference title, email and navigation (_data/structXX.yml)
 # used by the shared conference layout. The site root serves the latest conference.
 defaults:
@@ -43,6 +53,10 @@ defaults:
       path: "24"
     values:
       year: "24"
+  - scope:
+      path: "27"
+    values:
+      year: "27"
 
 plugins:
   - jekyll-seo-tag
