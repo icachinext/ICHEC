@@ -1,0 +1,38 @@
+---
+layout: 27/default
+---
+
+<div class="container space-1 ichec27-committee">
+  <h2 class="text-center mb-7">Committee Members</h2>
+
+  {% for group in site.data.committee27 %}
+  <section class="mb-7" aria-labelledby="committee-group-{{ forloop.index }}">
+    <div class="text-center mb-5">
+      <h3 id="committee-group-{{ forloop.index }}" class="h4 mb-2">{{ group.title | escape }}</h3>
+      <p class="text-muted mb-0" lang="zh-Hans">{{ group.title_zh | escape }}</p>
+    </div>
+    <div class="row justify-content-center">
+      {% for member in group.members %}
+      <div class="col-md-6 mb-4">
+        <article class="card h-100 text-center">
+          <div class="card-body">
+            <a class="d-inline-block mb-4" href="{{ member.url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{{ member.name | escape }}{% if member.name_zh %} {{ member.name_zh | escape }}{% endif %}">
+              <span class="ichec27-chair-frame" style="background-color: {{ member.image_background | default: 'transparent' | escape }};">
+              <img class="ichec27-chair-photo" src="{{ site.baseurl }}/assets/img/committee/27/{{ member.image | escape }}" alt="{{ member.name | escape }}{% if member.name_zh %} {{ member.name_zh | escape }}{% endif %}" width="160" height="160" style="object-position: {{ member.image_position | escape }}; object-fit: {{ member.image_fit | default: 'cover' | escape }}; transform: scale({{ member.image_scale | default: 1 }}); transform-origin: 50% 10%;" loading="lazy">
+              </span>
+            </a>
+            <h4 class="h4 mb-3">
+              <a href="{{ member.url | escape }}" target="_blank" rel="noopener noreferrer">{{ member.name | escape }}{% if member.name_zh %} <span lang="zh-Hans">{{ member.name_zh | escape }}</span>{% endif %}</a>
+            </h4>
+            <p class="mb-2" lang="zh-Hans">{{ member.role_zh | escape }}</p>
+            <p class="font-size-1 text-muted mb-0" lang="en">{{ member.role_en | escape }}</p>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+  {% comment %}Other chair categories remain hidden until their members are confirmed.{% endcomment %}
+</div>

@@ -1,0 +1,40 @@
+- title: Honorary Chairs
+  title_zh: 大会荣誉主席
+  members:
+    - name: Yongqi Lou
+      name_zh: 娄永琪
+      url: https://www.sues.edu.cn/6e/4c/c26972a290380/page.htm
+      image: yongqi-lou.jpg
+      image_position: center 28%
+      image_scale: 1.4
+      role_zh: 上海工程技术大学校长
+      role_en: President, Shanghai University of Engineering Science, China
+      image_source: https://www.sues.edu.cn/_upload/article/images/25/77/700965e94f759a9bd7061fa2f3a8/1e672604-30ed-4475-b130-850ea80c98fb.jpg
+    - name: Xiangshi Ren
+      name_zh: 任向实
+      url: https://xiangshiren.com
+      image: xiangshi-ren.jpg
+      image_position: center center
+      image_fit: contain
+      image_background: "#e5eff1"
+      role_zh: 日本高知工科大学终身教授；上海工程技术大学讲席教授、人机共协计算研究所主任
+      role_en: Lifetime Tenured Professor, Kochi University of Technology, Japan; Chair Professor and Director of the Institute for Human-Engaged Computing, Shanghai University of Engineering Science, China
+      image_source: User-provided portrait
+- title: General Chairs
+  title_zh: 大会联合主席
+  members:
+    - name: Ellen Yi-Luen Do
+      url: https://www.colorado.edu/atlas/ellen-yi-luen-do
+      image: ellen-yi-luen-do.jpg
+      image_position: center 30%
+      role_zh: 美国科罗拉多大学博尔德分校教授
+      role_en: Professor, University of Colorado Boulder, USA
+      image_source: https://www.colorado.edu/atlas/sites/default/files/styles/large_image_style/public/people/ellen_yi-luen_do-cropped.jpg?itok=EqIZc0mV
+    - name: Jun Hu
+      name_zh: 胡军
+      url: https://www.tue.nl/en/research/researchers/jun-hu
+      image: jun-hu.jpg
+      image_position: center 30%
+      role_zh: 荷兰埃因霍芬理工大学副教授、ICACHI 会长
+      role_en: Associate Professor, Eindhoven University of Technology, the Netherlands; President, ICACHI
+      image_source: https://assets.w3.tue.nl/w/fileadmin/_processed_/d/3/csm_b1a14bf28c0b82a59c1004a5d1ab3c68_d9373d15fb.jpg

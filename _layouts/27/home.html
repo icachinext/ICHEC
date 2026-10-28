@@ -1,0 +1,74 @@
+---
+layout: 27/default
+---
+
+<div class="container">
+  <div class="text-justify mb-10" id="intro">
+    <h2>About ICHEC 2027</h2>
+    <p>
+      Welcome to the International Conference on Human-Engaged Computing (ICHEC 2027).
+      ICHEC is a global platform for exploring how computing—especially Artificial Intelligence and emerging technologies—is intertwined with human values, cultures, and lived experiences.
+      Formerly known as Chinese CHI, the conference welcomes HCI researchers, practitioners, designers, and industry leaders from around the world.
+    </p>
+    <p>
+      The conference is tentatively scheduled for November 3–5, 2027, at Shanghai University of Engineering Science in Shanghai, China.
+      The conference theme, keynote speakers, and submission deadlines will be announced on this page.
+    </p>
+  </div>
+</div>
+
+{% if page.show_keynotes %}
+<div class="bg-light rounded-lg mx-3 mx-md-11 mb-3">
+  <div class="container space-1 space-md-2">
+    <div class="w-md-80 text-center mx-md-auto">
+      <p>OPENING KEYNOTE</p>
+      <h2 class="text-primary">To be announced</h2>
+      <p class="mb-0">Speaker, affiliation, and abstract will be published here.</p>
+    </div>
+  </div>
+</div>
+
+<div class="bg-light rounded-lg mx-3 mx-md-11 mb-3">
+  <div class="container space-1 space-md-2">
+    <div class="w-md-80 text-center mx-md-auto">
+      <p>CLOSING KEYNOTE</p>
+      <h2 class="text-primary">To be announced</h2>
+      <p class="mb-0">Speaker, affiliation, and abstract will be published here.</p>
+    </div>
+  </div>
+</div>
+
+{% endif %}
+
+{% if page.show_dates_and_contact %}
+<div class="container">
+  <div class="text-justify mb-10" id="intro">
+    {{ content }}
+  </div>
+</div>
+
+{% endif %}
+
+<div class="container space-1 mt-n4">
+  <div class="text-center mb-7">
+    <h4 class="text-body h6 text-cap">HOST / 主办</h4>
+  </div>
+  <div class="host-logos mb-8">
+    <figure class="host-logo">
+      <img src="{{ site.baseurl }}/assets/img/logo/icachi-logo.svg" alt="世界华人华侨人机交互协会">
+      <figcaption>世界华人华侨人机交互协会</figcaption>
+    </figure>
+    <figure class="host-logo">
+      <img src="{{ site.baseurl }}/assets/img/logo/sues.png" alt="上海工程技术大学">
+      <figcaption>上海工程技术大学</figcaption>
+    </figure>
+    <figure class="host-logo">
+      <img src="{{ site.baseurl }}/assets/img/logo/sues-design.png" alt="上海工程技术大学设计学院">
+      <figcaption>上海工程技术大学设计学院</figcaption>
+    </figure>
+    <figure class="host-logo">
+      <img src="{{ site.baseurl }}/assets/img/logo/chec-institute.png" alt="人机共协计算研究所">
+      <figcaption>人机共协计算研究所</figcaption>
+    </figure>
+  </div>
+</div>

@@ -1,7 +1,7 @@
 {%- assign struct_key = "struct" | append: page.year -%}
 {%- assign navlist = site.data[struct_key].nav | sort: "order" -%}
 <header id="header"
-  class="header header-box-shadow-on-scroll header-abs-top header-white-nav-links-lg header-bg-transparent header-show-hide"
+  class="header header-box-shadow-on-scroll header-abs-top header-white-nav-links-lg header-bg-transparent header-show-hide{% if page.year == "27" %} ichec27-header{% endif %}"
   data-hs-header-options='{
             "fixMoment": 1000,
             "fixEffect": "slide"
@@ -9,15 +9,15 @@
   <div class="header-section">
     <div id="logoAndNav" class="container">
       <nav class="js-mega-menu navbar navbar-expand-lg">
-        <a class="navbar-brand navbar-brand-default" href="{{ "/" | relative_url }}" aria-label="ICACHI">
+        <a class="navbar-brand navbar-brand-default" href="https://icachi.org" aria-label="ICACHI">
           <img src="{{ site.baseurl }}/assets/img/logo/icachi-logo-dark.svg" alt="ICACHI">
         </a>
 
-        <a class="navbar-brand navbar-brand-on-scroll" href="{{ "/" | relative_url }}" aria-label="ICACHI">
+        <a class="navbar-brand navbar-brand-on-scroll" href="https://icachi.org" aria-label="ICACHI">
           <img src="{{ site.baseurl }}/assets/img/logo/icachi-logo.svg" alt="ICACHI">
         </a>
 
-        <a class="navbar-brand navbar-brand-collapsed" href="{{ "/" | relative_url }}" aria-label="ICACHI">
+        <a class="navbar-brand navbar-brand-collapsed" href="https://icachi.org" aria-label="ICACHI">
           <img src="{{ site.baseurl }}/assets/img/logo/icachi-logo.svg" alt="ICACHI">
         </a>
 
@@ -39,10 +39,10 @@
 
         <div id="navBar" class="collapse navbar-collapse">
           <div class="navbar-body header-abs-top-inner">
-            <ul class="navbar-nav text-dark">
+            <ul class="navbar-nav{% unless page.year == "27" %} text-dark{% endunless %}">
               {%- for item in navlist %}
               <li class="navbar-nav-item">
-                <a class="nav-link text-dark" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+                <a class="nav-link{% unless page.year == "27" %} text-dark{% endunless %}" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
               </li>
               {%- endfor %}
             </ul>

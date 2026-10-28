@@ -1,0 +1,29 @@
+nav:
+
+- title: Home
+  url: /27/
+  order: 1
+
+- title: Committee
+  url: /27/committee/
+  order: 2
+
+# Temporarily hidden until those pages are ready.
+# - title: For Authors
+#   url: /27/callforpapers/
+#   order: 3
+# - title: Attend
+#   url: /27/attend/
+#   order: 4
+# - title: Program
+#   url: /27/program/
+#   order: 5
+# - title: Workshops
+#   url: /27/workshops/
+#   order: 6
+# - title: AMA Lunch
+#   url: /27/amalunch/
+#   order: 7
+# - title: Sponsorship
+#   url: /27/sponsorship/
+#   order: 8

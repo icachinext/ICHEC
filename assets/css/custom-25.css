@@ -179,3 +179,97 @@ a:hover {
 .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(140, 16, 50, 0.3);
 }
+
+.ichec27-hero,
+.ichec27-hero h1,
+.ichec27-hero h2,
+.ichec27-hero p {
+  color: #fff;
+}
+
+.ichec27-hero .ichec27-name-zh {
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.ichec27-hero .ichec27-details {
+  font-size: clamp(1rem, 1.8vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.ichec27-committee {
+  max-width: 960px;
+}
+
+.ichec27-chair-frame {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.ichec27-chair-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.host-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem 3rem;
+}
+
+.host-logo {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.host-logo img {
+  height: 56px;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
+}
+
+.host-logo figcaption {
+  margin-top: 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #77838f;
+  white-space: nowrap;
+}
+
+@media (max-width: 767.98px) {
+  .host-logo img {
+    height: 48px;
+  }
+
+  .host-logo figcaption {
+    white-space: normal;
+    max-width: 16rem;
+  }
+}
+
+/* White navigation over the dark 2027 hero. */
+#header.ichec27-header:not(.js-header-fix-moment) .nav-link,
+#header.ichec27-header:not(.js-header-fix-moment) .navbar-toggler {
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  #header.ichec27-header:not(.js-header-fix-moment) .navbar-body {
+    background-color: #201b27;
+    border-radius: 0.5rem;
+  }
+}
