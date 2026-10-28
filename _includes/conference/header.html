@@ -10,7 +10,7 @@
     <div id="logoAndNav" class="container">
       <nav class="js-mega-menu navbar navbar-expand-lg">
         <a class="navbar-brand navbar-brand-default" href="https://icachi.org" aria-label="ICACHI">
-          <img src="{{ site.baseurl }}/assets/img/logo/icachi-logo-dark.svg" alt="ICACHI">
+          <img src="{{ site.baseurl }}/assets/img/logo/icachi-logo-{% if page.year == "27" %}white{% else %}dark{% endif %}.svg" alt="ICACHI">
         </a>
 
         <a class="navbar-brand navbar-brand-on-scroll" href="https://icachi.org" aria-label="ICACHI">
