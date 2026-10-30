@@ -58,42 +58,6 @@
     span1 p:first-child{font-size: 30px}
     span1 p:last-child{font-size: 14px}
 </style>
-<script type="text/javascript" src="/19/sites/all/themes/business/js/timecountdown.js"></script>
-<script type="text/javascript">
-    /**
-     * time.day 和 time.dayZero 区别
-     * time.day 如果是1天 返回 1
-     * time.dayZero 如果是1天 则返回 01
-     * 除了day拥有Zero外 hour,minute,second,msec都有Zero 即小于10的，都会在前面补0
-     */
-    window.onload=function(){
-        xcsoft.countdown('2019-06-27',function (time) {
-            //time.days=总天数
-            //document.getElementById("y1").innerHTML=time.year
-            document.getElementById("d1").innerHTML=time.day
-            document.getElementById("h1").innerHTML=time.hourZero
-            document.getElementById("i1").innerHTML=time.minuteZero
-            document.getElementById("s1").innerHTML=time.secondZero
-            document.getElementById("m1").innerHTML=time.msecZero
-        },function (time) {
-            //倒计时结束后的操作
-        })
-        xcsoft.countup('2018-11-11',function (time) {
-            document.getElementById("y2").innerHTML=time.year
-            document.getElementById("d2").innerHTML=time.day
-            document.getElementById("h2").innerHTML=time.hourZero
-            document.getElementById("i2").innerHTML=time.minuteZero
-            document.getElementById("s2").innerHTML=time.secondZero
-        })
-
-        var nes=parseInt(new Date().getTime()/1000)+60;
-        xcsoft.countdown(parseInt(nes)+'.3',function (time) {
-            document.getElementById("s3").innerHTML=time.secondZero
-            document.getElementById("m3").innerHTML=time.msecZero
-        })
-
-    }
-</script>
 <script type="text/javascript" src="/19/misc/jquery-v%3D1.4.4.js"></script>
 <script type="text/javascript" src="/19/misc/jquery.once-v%3D1.2.js"></script>
 <script type="text/javascript" src="/19/misc/drupal-plq0kq.js"></script>
@@ -134,7 +98,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/19\/","pathPrefix":"","ajaxPageSta
 .venue2:hover{transform: scale(2.07);transform-origin: 380px 253px;}
 </style>	
 </head>
-<body class="html front not-logged-in no-sidebars page-node">
+<body id="top" class="html front not-logged-in no-sidebars page-node">
     
 <div id="wrap">
 <meta property="og:url" content="http://chchi2019.icachi.org" />
@@ -292,37 +256,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/19\/","pathPrefix":"","ajaxPageSta
 
 <div>
   <div style="width:80%;margin:0 auto">
-        <!--<span class="red">
-            <p id="y1"></p>
-            <p>年</p>
-        </span>-->
-        <span1 class="yg">
-            <p id="d1" style="color: black"></p>
-            <p style="color: black">D</p>
-        </span1>
-        <span1 class="or">
-            <p id="h1" style="color: black"></p>
-            <p style="color: black">HR</p>
-        </span1>
-        <span1 class="pi">
-            <p id="i1" style="color: black"></p>
-            <p style="color: black">MIN</p>
-        </span1>
-        <span1 class="pk">
-            <p id="s1" style="color: red"></p>
-            <p style="color: red">SEC</p>
-        </span1>
-        <!--<span class="mk">
-            <p id="m1"></p>
-            <p>毫秒</p>
-        </span>-->
+        <p class="archive-notice">Conference dates: 27–30 June 2019, Xiamen, China. / 会议日期：2019 年 6 月 27–30 日，中国厦门。</p>
 
     </div>
 <div align="center" style="margin:0 auto;padding:0; width:80%;height:1px;background-color:#ADADAD;overflow:hidden;"></div> 
 </div>
 														
   <div class="content">
-    <div style="text-align:center; >
+    <div style="text-align:center;">
 <p class="rtecenter"> </p>
 <p class="rtecenter"> </p>
 <!-- <p align="left" style="width:80%;margin:0 auto" class="module"><span class="moveTitles">IMPORTANT DATE</span></p> -->

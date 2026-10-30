@@ -1,0 +1,18 @@
+/* Recovery styles for the archived 2013 markup. The original custom theme
+   stylesheets were not preserved; these rules restore its navigation layout. */
+.fitwidth { width: 960px; margin: 0 auto; }
+#header { padding: 24px 0; background: #edf4f7; }
+#header table { margin: 0 auto; width: 960px; }
+#header td { border: 0; vertical-align: middle; }
+#logo img { max-width: 100px; height: auto; }
+#sitename { font-size: 2em; font-weight: bold; }
+#sitelogan { margin-top: 8px; }
+#main-menu { background: #064771; }
+#main-menu ul.menu { margin: 0; padding: 0; list-style: none; display: flex; }
+#main-menu ul.menu li { list-style: none; margin: 0; padding: 0; flex: 1; }
+#main-menu a { display: block; color: white; padding: 12px; text-decoration: none; }
+#main-menu a span { display: block; font-size: 12px; }
+#main-menu a:hover, #main-menu a:focus { background: #043450; }
+#main { padding-top: 24px; }
+#main img { max-width: 100%; height: auto; }
+#sidebar-first table { width: 100%; }

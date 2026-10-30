@@ -72,38 +72,6 @@ permalink: /21/iwhec2021/
             "fixEffect": "slide"
           }'>
     <div class="header-section">
-      <!-- Topbar -->
-      <div class="container header-hide-content d-none d-lg-block pt-2">
-        <div class="d-flex align-items-center">
-          <div class="ml-auto">
-            <!-- Jump To -->
-            <div class="hs-unfold d-sm-none mr-2">
-              <a class="js-hs-unfold-invoker dropdown-nav-link dropdown-toggle d-flex align-items-center"
-                href="javascript:;" data-hs-unfold-options='{
-                    "target": "#jumpToDropdown",
-                    "type": "css-animation",
-                    "event": "hover",
-                    "hideOnScroll": "true"
-                   }'> Jump to
-              </a>
-
-              <div id="jumpToDropdown" class="hs-unfold-content dropdown-menu">
-                <a class="dropdown-item" href="./page-faq.html">Help</a>
-                <a class="dropdown-item" href="./page-contacts-agency.html">Contacts</a>
-              </div>
-            </div>
-            <!-- End Jump To -->
-
-            <!-- Links -->
-            <!-- <div class="nav nav-sm nav-y-0 d-none d-sm-flex ml-sm-auto">
-              <a class="nav-link" href="./page-faq.html">Help</a>
-              <a class="nav-link" href="./page-contacts-agency.html">Contacts</a>
-            </div> -->
-            <!-- End Links -->
-          </div>
-        </div>
-      </div>
-      <!-- End Topbar -->
 
       <div id="logoAndNav" class="container">
         <!-- Nav -->
@@ -219,15 +187,15 @@ permalink: /21/iwhec2021/
                 </li>
                 <li class="nav-item navbar-nav-last-item">
                   <a class="btn btn-outline-light btn-pill shadow-soft transition-3d-hover navbar-brand-default"
-                    href="day3.html" target="_blank">Affiliated Forum
+                    href="#affiliated-forum" target="_blank">Affiliated Forum
                   </a>
 
                   <a class="btn btn-primary btn-pill shadow-soft transition-3d-hover navbar-brand-on-scroll"
-                    href="day3.html" target="_blank">Affiliated Forum
+                    href="#affiliated-forum" target="_blank">Affiliated Forum
                   </a>
 
                   <a class="btn btn-primary btn-pill shadow-soft transition-3d-hover navbar-brand-collapsed"
-                    href="day3.html" target="_blank">Affiliated Forum
+                    href="#affiliated-forum" target="_blank">Affiliated Forum
                   </a>
                 </li>-->
               </ul>
@@ -266,7 +234,7 @@ permalink: /21/iwhec2021/
               <a class="btn btn-light btn-wide btn-pill mb-2 mb-sm-0 mr-2 mt-3" style="cursor:default">March 19 - 20,
                 2021</a>
               <a class="btn btn-light btn-wide btn-pill shadow-soft transition-3d-hover mb-2 mb-sm-0 mr-2 mt-3"
-                href="day3.html">Affiliated Forum, March 21, 2021</a>
+                href="#affiliated-forum">Affiliated Forum, March 21, 2021</a>
               <br>
               <a id="popoverzoom" class="btn btn-indigo btn-wide btn-pill shadow-soft transition-3d-hover mt-3 mr-2"
                 rel="popover" data-content="" title="IWHEC 2021 Registration"
@@ -2139,7 +2107,7 @@ permalink: /21/iwhec2021/
             <div class="step-content">
               <h5 class="h5 text-warning mb-0">March 19, 2021, 9:00 ~ 9:15 JST&nbsp&nbsp&nbsp&nbsp&nbsp<a
                   data-toggle="modal" data-target="#myModal" href="#"><i
-                    class="fas fa-caret-square-right">&nbsp&nbsp</i>Watch Replay</a></h5>
+                    class="fas fa-caret-square-right">&nbsp&nbsp</i>Recording archive status / 录像存档状态</a></h5>
               <!-- Video modal begin-->
               <div class="modal fade bd-example-modal-xl" id="myModal" tabindex="-1" role="dialog"
                 aria-labelledby="myExtraLargeModalLabel">
@@ -2150,10 +2118,7 @@ permalink: /21/iwhec2021/
                           aria-hidden="true">&times;</span></button>
                     </div>
                     <div class="modal-body">
-                      <video controls id="video1" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
-                        <source src="{{ site.baseurl }}/assets/video/Opening.mp4" type="video/mp4">
-                        Your browser doesn't support HTML5 video tag.
-                      </video>
+                      <p>Video recording is not included in this archive. / 此存档未收录该录像。</p>
                     </div>
                   </div>
                 </div>
@@ -2319,7 +2284,7 @@ permalink: /21/iwhec2021/
             <div class="step-content">
               <h4 class="h5 text-warning mb-0">March 20, 2021, 17：40-17：50 JST&nbsp&nbsp&nbsp&nbsp&nbsp<a
                   data-toggle="modal" data-target="#myModalc" href="#"><i
-                    class="fas fa-caret-square-right">&nbsp&nbsp</i>Watch Replay</a></h4>
+                    class="fas fa-caret-square-right">&nbsp&nbsp</i>Recording archive status / 录像存档状态</a></h4>
               <!-- Video modal begin-->
               <div class="modal fade bd-example-modal-xl" id="myModalc" tabindex="-1" role="dialog"
                 aria-labelledby="myExtraLargeModalLabel">
@@ -2330,10 +2295,7 @@ permalink: /21/iwhec2021/
                           aria-hidden="true">&times;</span></button>
                     </div>
                     <div class="modal-body">
-                      <video controls id="video2" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
-                        <source src="{{ site.baseurl }}/assets/video/Closing speech.mp4" type="video/mp4">
-                        Your browser doesn't support HTML5 video tag.
-                      </video>
+                      <p>Video recording is not included in this archive. / 此存档未收录该录像。</p>
                     </div>
                   </div>
                 </div>
@@ -2352,7 +2314,7 @@ permalink: /21/iwhec2021/
           <div class="step-content-wrapper">
             <span class="step-icon step-icon-sm step-icon-soft-primary"><i class="far fa-calendar-alt"></i></span>
             <div class="step-content">
-              <h4 class="h5 text-primary mb-0">March 21, 2021 </h4>
+              <h4 id="affiliated-forum" class="h5 text-primary mb-0">March 21, 2021 </h4>
               <p class="mb-2">Affiliated Forum on Human · Technology · Future, March 21, 2021 (In Chinese)</p>
             </div>
           </div>
@@ -3283,22 +3245,7 @@ permalink: /21/iwhec2021/
 
     });
   </script>
-  <script>
-    $('#myModal').on('shown.bs.modal', function () {
-      $('#video1')[0].play();
-    })
-    $('#myModal').on('hidden.bs.modal', function () {
-      $('#video1')[0].pause();
-    })
-    $('#myModalc').on('shown.bs.modal', function () {
-      $('#video2')[0].play();
-    })
-    $('#myModalc').on('hidden.bs.modal', function () {
-      $('#video2')[0].pause();
-    })
-  </script>
-
-  <!-- IE Support -->
+<!-- IE Support -->
   <script>
     if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="{{ site.baseurl }}/assets/vendor/babel-polyfill/dist/polyfill.js"><\/script>');
   </script>

@@ -11,7 +11,7 @@ permalink: /23/registration/
 
 两种签证可选择：【落地签】和【e-VOA电子签】
 【电子签E-VOA】申请步骤：
-1. 申请网址：<a href="molina.imigrasi.go.id" target="_blank">molina.imigrasi.go.id</a>（唯一官网），网站很卡很慢，建议早上申请和支付，会顺滑很多。
+1. 申请网址：<a href="https://molina.imigrasi.go.id" target="_blank">molina.imigrasi.go.id</a>（唯一官网），网站很卡很慢，建议早上申请和支付，会顺滑很多。
 2. 填写问卷，需要填写印尼停留区域等信息。
 3. 支付e-VOA费用：支付519500印尼盾，折合人民币230左右，支付需要使用带有visa、Mastercard或CB标志的信用卡进行支付。
 4. 支付完成后，会在页面查看e-VOA，下载打印即可。
