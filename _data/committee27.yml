@@ -17,8 +17,8 @@
       image_position: center center
       image_fit: contain
       image_background: "#e5eff1"
-      role_zh: 日本高知工科大学终身教授；上海工程技术大学讲席教授、人机共协计算研究所主任
-      role_en: Lifetime Tenured Professor, Kochi University of Technology, Japan; Chair Professor and Director of the Institute for Human-Engaged Computing, Shanghai University of Engineering Science, China
+      role_zh: 日本高知工科大学终身教授
+      role_en: Lifetime Tenured Professor, Kochi University of Technology, Japan
       image_source: User-provided portrait
 - title: General Chairs
   title_zh: 大会联合主席
