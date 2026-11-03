@@ -1,10 +1,12 @@
 nav:
 
 - title: Home
+  title_zh: 首页
   url: /27/
   order: 1
 
 - title: Committee
+  title_zh: 委员会
   url: /27/committee/
   order: 2
 

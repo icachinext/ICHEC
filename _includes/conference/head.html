@@ -19,4 +19,17 @@
   {%- if page.year == "25" or page.year == "27" %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom-25.css">
   {%- endif %}
+  {%- if page.year == "27" %}
+  <script>
+    (function () {
+      var lang = "en";
+      try {
+        var saved = localStorage.getItem("ichec27-lang");
+        if (saved === "zh" || saved === "en") lang = saved;
+      } catch (e) {}
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.lang = lang === "zh" ? "zh-Hans" : "en";
+    })();
+  </script>
+  {%- endif %}
 </head>

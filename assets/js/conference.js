@@ -1,4 +1,20 @@
 $(function () {
+  var $langToggle = $('[data-lang-toggle]');
+  if ($langToggle.length) {
+    var applyLang = function (lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : 'en';
+      $langToggle.attr('aria-label', lang === 'zh' ? 'Switch to English' : '切换到中文');
+    };
+    var lang = document.documentElement.getAttribute('data-lang') === 'zh' ? 'zh' : 'en';
+    applyLang(lang);
+    $langToggle.on('click', function () {
+      lang = lang === 'zh' ? 'en' : 'zh';
+      try { localStorage.setItem('ichec27-lang', lang); } catch (e) {}
+      applyLang(lang);
+    });
+  }
+
   new HSHeader($('#header')).init();
 
   new HSMegaMenu($('.js-mega-menu'), {

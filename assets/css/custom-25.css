@@ -199,16 +199,101 @@ a:hover {
   line-height: 1.6;
 }
 
-.ichec27-committee {
-  max-width: 960px;
+html[data-lang="en"] [data-lang="zh"],
+html:not([data-lang]) [data-lang="zh"],
+html[data-lang="zh"] [data-lang="en"] {
+  display: none !important;
+}
+
+#header.ichec27-header .ichec27-lang-btn {
+  background: transparent;
+  border: 0;
+  padding: 0.2rem 0.45rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #1e2022;
+}
+
+#header.ichec27-header:not(.js-header-fix-moment) .ichec27-lang-btn {
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  #header.ichec27-header .navbar-brand {
+    margin-right: auto;
+  }
+
+  #header.ichec27-header .ichec27-lang-btn {
+    order: 2;
+  }
+
+  #header.ichec27-header .navbar-toggler {
+    order: 3;
+    margin-left: 0.35rem;
+  }
+
+  #header.ichec27-header .navbar-collapse {
+    order: 4;
+  }
+}
+
+html[data-lang="en"] .host-logo figcaption {
+  white-space: normal;
+  max-width: 14rem;
+}
+
+@media (min-width: 992px) {
+  html[data-lang="en"] .host-logos {
+    flex-wrap: nowrap;
+    gap: 1.25rem 1.5rem;
+  }
+
+  html[data-lang="en"] .host-logo {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 16.5rem;
+  }
+
+  html[data-lang="en"] .host-logo img {
+    height: 36px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  html[data-lang="en"] .host-logo figcaption {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html[data-lang="en"] .host-logo img {
+    height: 44px;
+  }
+}
+
+.ichec27-committee .card-body {
+  padding: 1.15rem 0.75rem 1rem;
 }
 
 .ichec27-chair-frame {
   display: block;
-  width: 160px;
-  height: 160px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.ichec27-chair-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.35rem;
+}
+
+.ichec27-chair-role {
+  font-size: 0.8125rem;
+  line-height: 1.45;
 }
 
 .ichec27-chair-photo {

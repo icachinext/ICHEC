@@ -42,12 +42,18 @@
             <ul class="navbar-nav{% unless page.year == "27" %} text-dark{% endunless %}">
               {%- for item in navlist %}
               <li class="navbar-nav-item">
-                <a class="nav-link{% unless page.year == "27" %} text-dark{% endunless %}" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+                <a class="nav-link{% unless page.year == "27" %} text-dark{% endunless %}" href="{{ item.url | relative_url }}">{% if item.title_zh %}<span data-lang="en">{{ item.title | escape }}</span><span data-lang="zh">{{ item.title_zh | escape }}</span>{% else %}{{ item.title | escape }}{% endif %}</a>
               </li>
               {%- endfor %}
             </ul>
           </div>
         </div>
+        {%- if page.year == "27" %}
+        <button type="button" class="ichec27-lang-btn" data-lang-toggle>
+          <span data-lang="en" lang="zh-Hans">中文</span>
+          <span data-lang="zh" lang="en">EN</span>
+        </button>
+        {%- endif %}
       </nav>
     </div>
   </div>

@@ -23,7 +23,16 @@
 - title: General Chairs
   title_zh: 大会联合主席
   members:
+    - name: Richard Hsu
+      name_zh: 徐宗漢
+      url: https://yssj.sues.edu.cn/91/34/c15839a299316/page.htm
+      image: richard-hsu.jpg
+      image_position: center center
+      role_zh: 上海工程技术大学设计学院院长
+      role_en: Dean, School of Design, Shanghai University of Engineering Science, China
+      image_source: https://yssj.sues.edu.cn/_upload/article/images/3d/0d/4163ad684d6c9df26d44fdde9158/66787641-ed2a-4c6c-bb5e-e0bd4b5642f5.jpg
     - name: Ellen Yi-Luen Do
+      name_zh: 杜怡伦
       url: https://www.colorado.edu/atlas/ellen-yi-luen-do
       image: ellen-yi-luen-do.jpg
       image_position: center 30%

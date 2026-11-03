@@ -5,12 +5,14 @@
           <div class="w-md-80 w-xl-80 text-center mx-md-auto">
             <div class="mb-7">
               <h1 class="display-2 mb-4 custom-font">{{ site.title27 | escape }}</h1>
-              <p class="ichec27-name-zh mb-3" lang="zh-Hans">人机共协计算国际会议</p>
-              <p class="lead text-white mb-4">International Conference on Human-Engaged Computing</p>
+              <p class="ichec27-name-zh mb-3" data-lang="zh" lang="zh-Hans">人机共协计算国际会议</p>
+              <p class="lead text-white mb-3" data-lang="en">International Conference on Human-Engaged Computing</p>
+              <p class="ichec27-details mb-4" data-lang="zh">{{ site.keywordsZH27 | escape }}</p>
+              <p class="ichec27-details mb-4" data-lang="en">{{ site.keywordsEN27 | escape }}</p>
 
               <hr style="border-color:rgba(255,255,255,.65)">
-              <p class="ichec27-details mb-2">{{ site.dateZH27 | escape }}， {{ site.venueZH27 | escape }}</p>
-              <p class="ichec27-details mb-2">{{ site.dateEN27 | escape }}, {{ site.venueEN27 | escape }}</p>
+              <p class="ichec27-details mb-2" data-lang="zh">{{ site.dateZH27 | escape }}， {{ site.venueZH27 | escape }}</p>
+              <p class="ichec27-details mb-2" data-lang="en">{{ site.dateEN27 | escape }}, {{ site.venueEN27 | escape }}</p>
 
               <br>
               <br>
