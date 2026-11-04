@@ -187,6 +187,31 @@ a:hover {
   color: #fff;
 }
 
+body.ichec27-bright .ichec27-hero-photo {
+  filter: brightness(1.22) saturate(1.2);
+}
+
+body.ichec27-bright .ichec27-hero,
+body.ichec27-bright .ichec27-hero h1,
+body.ichec27-bright .ichec27-hero h2,
+body.ichec27-bright .ichec27-hero p,
+body.ichec27-bright .ichec27-hero .text-white {
+  color: #1c2836 !important;
+}
+
+body.ichec27-bright .ichec27-hero hr {
+  border-color: rgba(28, 40, 54, .35) !important;
+}
+
+body.ichec27-bright #header.ichec27-header:not(.js-header-fix-moment) .navbar-brand-default img {
+  filter: brightness(0);
+}
+
+body.ichec27-bright #header.ichec27-header:not(.js-header-fix-moment) .ichec27-lang-btn,
+body.ichec27-bright #header.ichec27-header:not(.js-header-fix-moment) .navbar-toggler {
+  color: #1e2022;
+}
+
 .ichec27-hero .ichec27-name-zh {
   font-size: clamp(1.5rem, 2.5vw, 2.5rem);
   font-weight: 600;
@@ -350,6 +375,10 @@ html[data-lang="en"] .host-logo figcaption {
 @media (min-width: 992px) {
   #header.ichec27-header:not(.js-header-fix-moment) .nav-link {
     color: #fff;
+  }
+
+  body.ichec27-bright #header.ichec27-header:not(.js-header-fix-moment) .nav-link {
+    color: #1e2022;
   }
 }
 
