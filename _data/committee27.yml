@@ -47,3 +47,41 @@
       role_zh: 荷兰埃因霍芬理工大学副教授、ICACHI 会长
       role_en: Associate Professor, Eindhoven University of Technology, the Netherlands; President, ICACHI
       image_source: https://assets.w3.tue.nl/w/fileadmin/_processed_/d/3/csm_b1a14bf28c0b82a59c1004a5d1ab3c68_d9373d15fb.jpg
+- title: Technical Program Co-Chairs
+  title_zh: 技术程序共同主席
+  members:
+    - name: Shengdong Zhao
+      name_zh: 赵盛东
+      url: https://shengdongzhao.com
+      image: shengdong-zhao.png
+      image_position: center 18%
+      role_zh: 香港城市大学教授
+      role_en: Professor, City University of Hong Kong
+      image_source: https://icachi.org/images/board/shengdongzhao.png
+    - name: Chen Wang
+      name_zh: 王晨
+      url: https://icachi.org/about
+      image: chen-wang.jpg
+      image_position: center center
+      role_zh: 上海工程技术大学
+      role_en: Shanghai University of Engineering Science, China
+      image_source: https://icachi.org/images/board/wangchen.jpg
+    - name: Yun Wang
+      name_zh: 王韫
+      url: https://shi.buaa.edu.cn/wangyun/en/index.htm
+      image: yun-wang.png
+      image_position: center center
+      role_zh: 北京航空航天大学
+      role_en: Beihang University, China
+      image_source: https://icachi.org/images/board/wangyun.png
+- title: Publication Chair
+  title_zh: 出版主席
+  members:
+    - name: Yuan Feng
+      name_zh: 冯媛
+      url: https://teacher.nwpu.edu.cn/en/2022010123
+      image: yuan-feng.jpg
+      image_position: center center
+      role_zh: 西北工业大学
+      role_en: Northwestern Polytechnical University, China
+      image_source: https://icachi.org/images/board/fengyuan.jpg
