@@ -74,6 +74,13 @@
       role_zh: 北京航空航天大学
       role_en: Beihang University, China
       image_source: https://icachi.org/images/board/wangyun.png
+    - name: Kibum Kim
+      url: https://hcii.hanyang.ac.kr/eng/research/playlab.html
+      image: kibum-kim.jpg
+      image_position: center center
+      role_zh: 韩国汉阳大学 ERICA 校区教授
+      role_en: Professor, Hanyang University ERICA, South Korea
+      image_source: https://www.ichec2026.com/images/keynotes/kibum-kim.jpg
 - title: Publication Chair
   title_zh: 出版主席
   members:
